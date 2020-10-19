@@ -1,0 +1,682 @@
+package com.edac.java;
+
+public class Assign1 
+
+
+1.)  class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("HellO All");
+
+	}
+
+     }
+o/p:-  Hello All
+
+
+2.)  class Add Program {
+
+	public static void main(String args[]){ 
+
+		int x = 50, y = 20, sum; 
+		sum = x + y; 
+
+		System.out.println("Sum of numbers:"+sum); 
+
+		} 
+		} 
+o/p:-   70
+
+3.)  class Div Program {
+        
+        public static void main(String[] args) { 
+		System.out.println(50/3); 
+		} 
+
+		} 
+o/p:-   16
+
+4.)  class Test Program {
+
+         public static void main(String[] args) { 
+		System.out.println(-5+8*6); 
+		System.out.println((55+9)%9); 
+		System.out.println(20+ -3*5/8); 
+		System.out.println(5+15/3*2 - 8%3); 
+		} 
+
+		} 
+
+o/p:-   43,1,19,13 
+
+5.)   class Multi Program {
+
+ 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x=25, y=5 ,multiply; 
+
+		multiply=x*y; 
+		System.out.println("The answer is: "+multiply); 
+
+		} 
+
+		} 
+
+O/P:- The answer is: 125
+
+6.)   package com.java.scannerExample;
+
+	import java.util.*;
+
+	public class Alloperation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in); 
+
+		System.out.print("Input first number x: "); 
+		int x = sc.nextInt(); 
+
+		System.out.print("Input second number y: "); 
+		int y = sc.nextInt(); 
+
+
+		System.out.println(x + " + " + y + " = " + 
+		(x + y)); 
+
+		System.out.println(x + " - " + y + " = " + 
+		(x - y)); 
+
+		System.out.println(x + " x " + y + " = " + 
+		(x * y)); 
+
+		System.out.println(x + " / " + y + " = " + 
+		(x / y)); 
+
+		System.out.println(x + " mod " + y + " = " + 
+		(x % y)); 
+		} 
+	}
+
+o/p:-   Input first number x: 125
+	Input second number y: 24
+	125 + 24 = 149
+	125 - 24 = 101
+	125 x 24 = 3000
+	125 / 24 = 5
+	125 mod 24 = 5
+
+7.)   package com.java.scannerExample;
+
+	import java.util.*;
+
+	public class Multitask {
+
+	public static void main(String[] args) 
+
+	{ 
+
+	Scanner sc = new Scanner(System.in); 
+
+	System.out.print("Enter number:"); 
+	
+	int n=sc.nextInt(); 
+	for(int i=1; i <= 10; i++) 
+	{ 
+	System.out.println(n+" * "+i+" = "+n*i); 
+	} 
+	} 
+	} 
+
+o/p:- Enter number:8
+	8 * 1 = 8
+	8 * 2 = 16
+	8 * 3 = 24
+	8 * 4 = 32
+	8 * 5 = 40
+	8 * 6 = 48
+	8 * 7 = 56
+	8 * 8 = 64
+	8 * 9 = 72
+	8 * 10 = 80
+
+
+8.)  package com.edac.java;
+
+     public class javapattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("   J    a  v       v  a "); 
+
+		System.out.println("   J   a a  v     v  a a"); 
+
+		System.out.println("J  J  aaaaa  V   V  aaaaa"); 
+
+		System.out.println(" JJ  a     a   V   a     a"); 
+		} 
+
+	}
+
+o/p:-      J    a  v       v  a 
+   	   J   a a  v     v  a a
+	J  J  aaaaa  V   V  aaaaa
+ 	 JJ  a     a   V   a     a
+
+
+9.)   package com.edac.java;
+
+      public class Decimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	System.out.println((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)); 
+			} 
+	
+	}
+
+o/p:- 2.138888888888889
+
+10.)  package com.edac.java;
+
+      public class Decimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+           System.out.println(4.0*(1-(1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))); 
+	  } 
+	} 
+
+o/p:-  2.9760461760461765
+
+11.)   package com.edac.java;
+
+	public class AreaPerimeter {
+
+
+	public static void main(String[] args) { 
+		
+	double radius = 7.5;	
+
+	double perimeter = 2 * Math.PI * radius; 
+
+	double area = Math.PI * radius * radius; 
+
+	System.out.println("Perimeter is = " + perimeter); 
+
+	System.out.println("Area is = " + area); 
+	} 
+	} 
+
+o/p:-   Perimeter is = 47.12388980384689
+	Area is = 176.71458676442586
+
+12.)    package com.edac.java;
+
+	import java.util.Scanner;
+
+	public class Average {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in); 
+
+		System.out.print("Input first number x: "); 
+		int x = sc.nextInt(); 
+
+		System.out.print("Input second number y: "); 
+		int y = sc.nextInt(); 
+
+		System.out.print("Input third number z: "); 
+		int z = sc.nextInt(); 
+
+
+		System.out.println("Average of three numbers is: " + 
+		(x + y + z) / 3); 
+		} 
+	}
+
+o/p:-   Input first number x: 25
+	Input second number y: 20
+	Input third number z: 25
+	Average of three numbers is: 23
+
+13.)    package com.edac.java;
+
+	public class APrectangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double w = 5.6; 
+		double h = 8.5; 
+
+		double perimeter = 2*(h + w); 
+
+		double area = w * h; 
+
+		System.out.println("Perimeter is 2*(w + h) = "  +perimeter); 
+
+		System.out.println("Area is w * h = "  +area); 
+		} 
+	}
+o/p:-   Perimeter is 2*(w + h) = 28.2
+	Area is w * h = 4.599999999999994
+
+14.)    package com.edac.java;
+
+	public class Flag {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("* * * * * * =================================="); 
+		System.out.println(" * * * * *  =================================="); 
+		System.out.println("* * * * * * =================================="); 
+		System.out.println(" * * * * *  =================================="); 
+		System.out.println("* * * * * * =================================="); 
+		System.out.println(" * * * * *  =================================="); 
+		System.out.println("* * * * * * =================================="); 
+		System.out.println(" * * * * *  =================================="); 
+		System.out.println("* * * * * * =================================="); 
+		System.out.println("=============================================="); 
+		System.out.println("=============================================="); 
+		System.out.println("=============================================="); 
+		System.out.println("=============================================="); 
+		System.out.println("=============================================="); 
+		System.out.println("=============================================="); 
+		} 
+	}
+
+15.)     package com.edac.java;
+
+	public class Swap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a, b, temp; 
+		a = 5; 
+		b = 7; 
+		System.out.println("Before swapping : a, b = "+a+" , "+b); 
+		temp = a; 
+		a = b; 
+		b = temp; 
+		System.out.println("After swapping : a, b = "+a+", "+b); 
+		} 
+		} 
+
+o/p:-   Before swapping : a, b = 5 , 7
+	After swapping : a, b = 7, 5
+
+
+16.)    package com.edac.java;
+
+public class Face {
+
+	public static void main(String[] args) {
+		System.out.println(" +\"\"\"\"\"+ "); 
+
+		System.out.println("[| o o |]"); 
+
+		System.out.println(" |  ^  | "); 
+
+		System.out.println(" | '-' | "); 
+
+		System.out.println(" +-----+ "); 
+	}
+
+}
+
+o/p:-    +"""""+ 
+        [| o o |]
+         |  ^  | 
+         | '-' | 
+         +-----+ 
+
+17.)    package com.edac.java;
+
+        import java.util.*;
+
+        public class BinaryAdd {
+
+	public static void main(String[] args) {
+
+		long b1, b2; 
+
+		int i = 0, carry = 0; 
+
+
+		int[] sum = new int[10]; 
+
+
+		Scanner scanner = new Scanner(System.in); 
+
+		System.out.print("Enter first binary number: "); 
+
+		b1 = scanner.nextLong(); 
+
+		System.out.print("Enter second binary number: "); 
+
+		b2 = scanner.nextLong(); 
+
+
+		scanner.close(); 
+
+		while (b1 != 0 || b2 != 0) 
+		{ 
+		sum[i++] = (int)((b1 % 10 + b2 % 10 + carry) % 2); 
+
+		carry = (int)((b1 % 10 + b2 % 10 + carry) / 2); 
+
+		b1 = b1 / 10; 
+
+		b2 = b2 / 10; 
+		} 
+		if (carry != 0) { 
+
+		sum[i++] = carry; 
+
+		} 
+		--i; 
+
+		System.out.print("Output: "); 
+
+		while (i >= 0) { 
+
+		System.out.print(sum[i--]); 
+
+		} 
+		System.out.print("\n"); 
+		} 
+	}
+
+o/p:-   Enter first binary number: 10
+        Enter second binary number: 11
+        Output: 101
+
+18.)            package com.edac.java;
+
+import java.util.Scanner; 
+
+public class BinaryMulti{ 
+
+public static void main(String[] args) { 
+        long binary1, binary2, multiply = 0; 
+        int digit, factor = 1; 
+        Scanner in = new Scanner(System.in); 
+        System.out.print("Input the first binary number: "); 
+        binary1 = in.nextLong(); 
+        System.out.print("Input the second binary number: "); 
+        binary2 = in.nextLong(); 
+        while (binary2 != 0) 
+        { 
+        digit = (int)(binary2 % 10); 
+        if (digit == 1) 
+        { 
+        binary1 = binary1 * factor; 
+        multiply = binaryproduct((int) binary1, (int) multiply); 
+        } 
+        else 
+        { 
+        binary1 = binary1 * factor; 
+        } 
+        binary2 = binary2 / 10; 
+        factor = 10; 
+        } 
+        System.out.print("Product of two binary numbers: " + multiply+"\n"); 
+        } 
+        static int binaryproduct(int binary1, int binary2) 
+        { 
+        int i = 0, remainder = 0; 
+        int[] sum = new int[20]; 
+        int binary_prod_result = 0; 
+
+        while (binary1 != 0 || binary2 != 0) 
+        { 
+        sum[i++] = (binary1 % 10 + binary2 % 10 + remainder) % 2; 
+        remainder = (binary1 % 10 + binary2 % 10 + remainder) / 2; 
+        binary1 = binary1 / 10; 
+        binary2 = binary2 / 10; 
+        } 
+        if (remainder != 0) 
+        { 
+        sum[i++] = remainder; 
+        } 
+        --i; 
+        while (i >= 0) 
+        { 
+        binary_prod_result = binary_prod_result * 10 + sum[i--]; 
+        } 
+        return binary_prod_result; 
+     } 
+} 
+
+19.)   package com.edac.java;
+
+       import java.util.Scanner; 
+       public class Decitobinary{
+	
+       public static void main(String args[]) { 
+        int dec_num, quot, i=1, j; 
+        int bin_num[] = new int[100]; 
+        Scanner sc = new Scanner(System.in); 
+
+        System.out.print("Input a Decimal Number : "); 
+        dec_num = sc.nextInt(); 
+
+        quot = dec_num; 
+
+        while(quot != 0) 
+        { 
+        bin_num[i++] = quot%2; 
+        quot = quot/2; 
+        } 
+
+        System.out.print("Binary number is: "); 
+        for(j=i-1; j>0; j--) 
+        { 
+        System.out.print(bin_num[j]); 
+        } 
+        System.out.print("\n"); 
+    } 
+} 
+
+o/p:-   Input a Decimal Number : 5
+        Binary number is: 101
+
+20.)    package com.edac.java;
+
+      import java.util.Scanner; 
+      public class Decitohexadeci{ 
+      public static void main(String args[]) { 
+          int dec_num, rem; 
+          String hexdec_num=""; 
+
+          char hex[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'}; 
+
+          Scanner sc = new Scanner(System.in); 
+
+          System.out.print("Input a decimal number: "); 
+          dec_num = sc.nextInt(); 
+
+          while(dec_num>0) 
+          { 
+          rem = dec_num%16; 
+          hexdec_num = hex[rem] + hexdec_num; 
+          dec_num = dec_num/16; 
+          } 
+          System.out.print("Hexadecimal number is : "+hexdec_num+"\n"); 
+    } 
+} 
+
+o/p:-  Input a decimal number: 15
+       Hexadecimal number is : F
+
+21.)   package com.edac.java;
+
+       import java.util.Scanner; 
+       public class DeciToOctal {
+
+	public static void main (String args[]) 
+	{ 
+	Scanner input = new Scanner( System.in ); 
+	System.out.print("Enter a decimal number : "); 
+	int num =input.nextInt(); 
+
+
+	int rem; 
+
+	String str=""; 
+	
+    char dig[]={'0','1','2','3','4','5','6','7'}; 
+
+	while(num>0) 
+	{ 
+	rem=num%8; 
+	str=dig[rem]+str; 
+	num=num/8; 
+	} 
+	System.out.println("Decimal to octal: "+str); 
+     } 
+} 
+
+o/p:-   Enter a decimal number : 15
+        Decimal to octal: 17
+
+22.)    package com.edac.java;
+
+       import java.util.Scanner; 
+       public class BinaryTDecimal {
+
+	public static void main(String args[]){ 
+	Scanner input = new Scanner( System.in ); 
+	System.out.print("Enter a binary number: "); 
+	String binaryString =input.nextLine(); 
+	System.out.println("Decimal Output: "+Integer.parseInt(binaryString,2)); 
+	} 
+} 
+
+o/p:-   Enter a binary number: 100
+        Decimal Output: 4
+
+23.)    package com.edac.java;
+
+        import java.util.Scanner; 
+        public class BiToHexa {
+
+	public static void main(String[] args) 
+	{ 
+	int[] hex = new int[1000]; 
+
+	int i = 1, j = 0, rem, dec = 0, bin; 
+	Scanner in = new Scanner(System.in); 
+	System.out.print("Input a Binary Number: "); 
+	bin = in.nextInt(); 
+	while (bin > 0) { 
+	rem = bin % 2; 
+	dec = dec + rem * i; 
+	i = i * 2; 
+	bin = bin / 10; 
+	} 
+	i = 0; 
+	while (dec != 0) { 
+	hex[i] = dec % 16; 
+	dec = dec / 16; 
+	i++; 
+	} 
+	System.out.print("HexaDecimal value: "); 
+	for (j = i - 1; j >= 0; j--) 
+	{ 
+	if (hex[j] > 9) 
+	{ 
+	System.out.print((char)(hex[j] + 55)+"\n"); 
+	} else 
+	{ 
+	System.out.print(hex[j]+"\n"); 
+	} 
+	} 
+  } 
+} 
+
+o/p:-   Input a Binary Number: 1101
+        HexaDecimal value: D
+
+24.)    package com.edac.java;
+
+        import java.util.*; 
+        public class BiToOctal {
+
+	
+	public static void main(String[] args) 
+	{ 
+	int binnum, binnum1,rem, decnum=0, quot, i=1, j; 
+	int octnum[] = new int[100]; 
+	Scanner sc = new Scanner(System.in); 
+	System.out.print("Input a Binary Number : "); 
+	binnum = sc.nextInt(); 
+	binnum1=binnum; 
+
+	while(binnum > 0) 
+	{ 
+	rem = binnum % 10; 
+	decnum = decnum + rem*i; 
+	//System.out.println(rem); 
+	i = i*2; 
+	binnum = binnum/10; 
+	} 
+
+	i=1; 
+	quot = decnum; 
+
+	while(quot > 0) 
+	{ 
+	octnum[i++] = quot % 8; 
+	quot = quot / 8; 
+	} 
+
+	System.out.print("Equivalent Octal Value of " +binnum1+ " is :"); 
+	for(j=i-1; j>0; j--) 
+	{ 
+	System.out.print(octnum[j]); 
+	} 
+	System.out.print("\n"); 
+
+	} 
+} 
+
+
+o/p:-   Input a Binary Number : 111
+        Equivalent Octal Value of 111 is :7
+
+25.)    package com.edac.java;
+
+        import java.util.Scanner; 
+        public class OctalToDeci {
+
+	public static void main(String[] args) 
+	{ 
+	Scanner in = new Scanner(System.in); 
+	long octal_num, decimal_num = 0; 
+	int i = 0; 
+	System.out.print("Input any octal number: "); 
+	octal_num = in.nextLong(); 
+	while (octal_num != 0) 
+	{ 
+	decimal_num = (long)(decimal_num + (octal_num % 10) * Math.pow(8, i++)); 
+	octal_num = octal_num / 10; 
+	} 
+	System.out.print("Equivalent decimal number: " + decimal_num+"\n"); 
+	} 
+}
+
+o/p:-   Input any octal number: 10
+        Equivalent decimal number: 8
