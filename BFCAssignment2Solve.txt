@@ -1,0 +1,307 @@
+
+1.) package Pattern;
+
+import java.util.Scanner;
+
+public class FullPyramid {
+
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the number of rows: ");
+
+        int n = sc.nextInt();
+		for(int row=1;row<=n;row++)
+		{
+			for(int space=row;space<=n;space++)
+			{
+				System.out.print(" ");
+			}
+			for(int col=1;col<=row;col++)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		sc.close();
+	}
+}
+
+
+2.) package Pattern;
+
+
+public class HalfPyramid {
+	public static void main(String[] args) {
+        int rows = 6;
+
+        for(int i = 1; i <= rows; ++i) {
+            for(int j = 1; j <= i; ++j) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+3.) package Pattern;
+
+import java.util.*;
+public class HollowFullPyra {
+
+	public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the number of rows: ");
+
+        int rows = sc.nextInt();
+         
+        for (int i=1; i<= rows ; i++)
+        {
+            for (int j = i; j < rows ; j++) {
+                System.out.print(" ");
+            }   
+            for (int k = 1; k <= (2*i -1) ;k++) {
+                if( k==1 || i == rows && k%2==1 || k==(2*i-1)) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println("");
+        }
+        sc.close();
+    }
+} 
+
+
+4.)   package Pattern;
+
+import java.util.Scanner;
+public class HollowInvHalfPyra {
+    public static void main(String[] args)
+{
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the number of rows: ");
+    
+    int n = sc.nextInt();        
+    for(int i=n;i>0;i--)
+    {
+      if(i==1 || i==n)
+      {
+      for(int j=1;j<=i;j++)
+      {
+         System.out.print("*");
+      }
+     }
+     else
+     {
+       for(int j=1;j<=i;j++)         
+       {  
+        if(j==1 || j==i)
+	{
+          System.out.print("*");
+	}
+        else
+	{
+            System.out.print(" ");
+        }
+        }
+       }
+           System.out.println();   
+      }             
+   
+    sc.close();
+ 
+}
+}
+
+
+5.)   package Pattern;
+
+import java.util.*;
+public class InvFullPyra {
+
+	public static void main(String[] args)
+	{
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter the number of rows: ");
+	 
+	    int rows = sc.nextInt();        
+	    for (int i= 0; i<= rows-1 ; i++)
+	    {
+	        for (int j=0; j<=i; j++)
+	        {
+	            System.out.print(" ");
+	        }
+	        for (int k=0; k<=rows-1-i; k++)
+	        {
+	            System.out.print("*" + " ");
+	        }
+	        System.out.println();
+	    }
+	    sc.close();
+	 
+	    }
+	}
+
+
+6.)   package Pattern;
+
+public class InvHalfPyra {
+
+	public static void main(String[] args) {
+        int rows = 6;
+
+        for(int i = rows; i >= 1; --i) {
+            for(int j = 1; j <= i; ++j) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+7.)   package Pattern;
+
+import java.util.Scanner;
+
+public class PyramidPattern2 {
+	  public static void main(String[] args)
+	  {
+		  Scanner sc = new Scanner(System.in);
+		  System.out.println("Enter the number of rows:");
+		  
+		  int n = sc.nextInt();
+		  
+		  for(int i=1;i<=n;i++)
+		  {
+			  for(int j=n;j>=i;j--)
+			  {
+				  System.out.print(" ");
+			  }
+			  for(int k=1;k<=i;k++)
+			  {
+				  System.out.print(k+" "); 
+			  }
+			  System.out.println();
+		  }
+		  System.out.println();
+		  sc.close();
+	  }
+	  
+}
+
+
+8.)  package Pattern;
+
+import java.util.Scanner;
+
+public class PyramidPattern4 {
+
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the number of rows: ");
+
+        int n = sc.nextInt();
+		int odd=1;
+		int spaces=n-1;
+		for(int i=1;i<=n;i++)
+		{
+			int k=0;
+			for(int j=1;j<=spaces;j++)
+			{
+				System.out.print(" ");
+			}
+			for(int j=1;j<=odd;j++)
+			{
+				if(j<=i)
+				{
+					k=k+1;
+				}
+				else
+				{
+					k=k-1;
+				}
+				System.out.print(k);
+			}
+			System.out.println();
+			odd=odd+2;
+			spaces=spaces-1;
+		}
+		sc.close();
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																															
